@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="5" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-10T00:33:29 EAT" name="Suite" finished-at="2023-02-10T00:35:10 EAT" duration-ms="100467">
+    <groups>
+      <group name="Purchase">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:toqio.TestCases.SubmitOrderTest@6b81ce95]" name="submitOrder" class="toqio.TestCases.SubmitOrderTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2023-02-10T00:33:29 EAT" name="Error Validation Test" finished-at="2023-02-10T00:33:29 EAT" duration-ms="15">
+    </test> <!-- Error Validation Test -->
+    <test started-at="2023-02-10T00:33:29 EAT" name="Submit Order Test" finished-at="2023-02-10T00:35:10 EAT" duration-ms="100467">
+      <class name="toqio.TestCases.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:toqio.TestCases.SubmitOrderTest@6b81ce95]" started-at="2023-02-10T00:33:29 EAT" name="launchApplication" finished-at="2023-02-10T00:34:06 EAT" duration-ms="36858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:toqio.TestCases.SubmitOrderTest@6b81ce95]" started-at="2023-02-10T00:34:06 EAT" name="submitOrder" data-provider="getData" finished-at="2023-02-10T00:34:12 EAT" duration-ms="5632" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Olivo2019, product=ADIDAS ORIGINAL, email=testingwdg17@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:toqio.TestCases.SubmitOrderTest@6b81ce95]" started-at="2023-02-10T00:34:12 EAT" name="TearDown" finished-at="2023-02-10T00:34:12 EAT" duration-ms="286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:toqio.TestCases.SubmitOrderTest@6b81ce95]" started-at="2023-02-10T00:34:12 EAT" name="launchApplication" finished-at="2023-02-10T00:34:48 EAT" duration-ms="35569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:toqio.TestCases.SubmitOrderTest@6b81ce95]" started-at="2023-02-10T00:34:48 EAT" name="submitOrder" data-provider="getData" finished-at="2023-02-10T00:34:53 EAT" duration-ms="5562" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Iamking@000, product=IPHONE 13 PRO, email=anshika@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:toqio.TestCases.SubmitOrderTest@6b81ce95]" started-at="2023-02-10T00:34:53 EAT" name="TearDown" finished-at="2023-02-10T00:35:09 EAT" duration-ms="16277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- toqio.TestCases.SubmitOrderTest -->
+    </test> <!-- Submit Order Test -->
+  </suite> <!-- Suite -->
+</testng-results>
